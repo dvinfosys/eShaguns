@@ -1,0 +1,120 @@
+@media (max-width: 1630px) {
+  .screen-shold {
+    max-width: 1160px;
+  }
+}
+
+@media (max-width: 1500px) {
+  body.boxed-v #wrapper {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 1199px) {
+  .screen-shold {
+    max-width: 1000px;
+  }
+}
+
+@media (max-width: 992px) {
+  #nav .nav-list li {
+    padding: 0 4%;
+  }
+  .screen-shold {
+    max-width: 768px;
+    padding: 58px 0 0;
+  }
+  .screen-shold .cover {
+    margin: 0;
+    max-width: 280px;
+  }
+  .screen-shold img {
+    padding: 0 10px;
+  }
+  .poitns li {
+    width: 49.5%;
+  }
+  .app-screen {
+    max-width: 650px;
+    background-size: 100% auto;
+    padding: 17px 78px 20px 82px;
+  }
+}
+
+@media (max-width: 767px) {
+  .hidden-xs {
+    display: none;
+  }
+  .visible-xs {
+    display: block !important;
+  }
+  .logo {
+    margin: 0;
+    min-width: 50px;
+    font-size: 25px;
+    line-height: 50px;
+  }
+  #header .holder {
+    padding: 25px 0;
+  }
+  #header.sticky .holder .logo {
+    margin: 0;
+  }
+  #nav {
+    left: 0;
+    right: 0;
+    top: 80px;
+    max-height: 0;
+    overflow: hidden;
+    position: absolute;
+    transition: all ease 0.3s;
+    background: #272c3f;
+  }
+  #nav .nav-list {
+    float: none;
+    width: 100%;
+  }
+  #nav .nav-list li {
+    padding: 0;
+    display: block;
+    text-align: left;
+    border-bottom: 1px solid #3c4252;
+  }
+  #nav .nav-list a {
+    display: block;
+    padding: 10px 20px;
+  }
+  .main-banner .heading {
+    font-size: 40px;
+    line-height: 60px;
+  }
+  .nav-active #nav {
+    max-height: 500px;
+  }
+  .poitns {
+    padding: 0;
+  }
+  .poitns li {
+    width: 100%;
+  }
+  .app-screen {
+    max-width: 280px;
+    padding: 8px 35px 0 35px;
+  }
+  .screen-shold {
+    max-width: 320px;
+    padding: 52px 0 0;
+  }
+  .screen-shold .cover {
+    width: 255px;
+    max-width: 400px;
+  }
+  .mt-social,
+  #footer {
+    text-align: center;
+  }
+  .magnify .magnify-lens {
+    width: 50px;
+    height: 50px;
+  }
+}

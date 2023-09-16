@@ -1,0 +1,29 @@
+a,
+#nav .nav-list a:hover,
+#nav .nav-list a.active,
+.main-banner .icons a:hover,
+#style-changer .changer-opener,
+#style-changer .changer-opener:hover,
+.main-color {
+  color: #9C4146;
+}
+
+.main-slider .slick-dots li:hover button,
+.main-slider .slick-dots li.slick-active button,
+.screen-shold .slick-dots li.slick-active button,
+.main-bg-color {
+  background-color: #9C4146;
+}
+
+.contact-section .form-control:focus,
+.main-border-color {
+  border-color: #9C4146;
+}
+
+.price-box .feature {
+  border-color: #9C4146 transparent transparent transparent;
+}
+
+.price-box .feature.add {
+  border-color: transparent #9C4146 transparent transparent;
+}
